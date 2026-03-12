@@ -133,6 +133,12 @@
       border-radius: 28px; background: #f8fbff; color: #0e1730; overflow: hidden;
       box-shadow: 0 20px 50px rgba(0,0,0,0.25);
     }
+    .demo-image-wrap {
+      border-radius: 24px; overflow: hidden; background: #0f172a; border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.28);
+    }
+    .demo-image-wrap img { display:block; width:100%; height:auto; }
+    .demo-caption { padding: 14px 16px; background: rgba(255,255,255,0.04); color: var(--muted); font-size: .92rem; }
     .app-top {
       padding: 20px 22px 14px; background: linear-gradient(135deg, #15244a, #1b2f62); color: #fff;
     }
@@ -327,54 +333,9 @@
         </div>
 
         <div class="hero-card" id="demonstracao">
-          <div class="app-window" aria-label="Prévia visual do aplicativo">
-            <div class="app-top">
-              <div class="app-title">Manchette Volleyball</div>
-              <div class="app-subtitle">Prévia de organização de jogo e avaliação de atletas</div>
-            </div>
-            <div class="app-body">
-              <div class="mock-card">
-                <span class="mock-label">Escolha o nível</span>
-                <div class="tag-row">
-                  <span class="tag">Iniciante</span>
-                  <span class="tag">Intermediário</span>
-                  <span class="tag active">Avançado</span>
-                  <span class="tag">Galáctico</span>
-                </div>
-              </div>
-
-              <div class="mock-card">
-                <span class="mock-label">Nome do jogador</span>
-                <div class="mock-input">João da Silva</div>
-              </div>
-
-              <div class="mock-card">
-                <span class="mock-label">Jogadores confirmados</span>
-                <div class="player-row">
-                  <div class="player">
-                    <strong>Rafael — Avançado</strong>
-                    <span class="score">Nota 8,8</span>
-                  </div>
-                  <div class="player">
-                    <strong>Carlos — Intermediário</strong>
-                    <span class="score">Nota 7,9</span>
-                  </div>
-                  <div class="player">
-                    <strong>Marcelo — Avançado</strong>
-                    <span class="score">Nota 8,5</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="mock-card">
-                <span class="mock-label">Ações rápidas</span>
-                <div class="tag-row">
-                  <span class="tag active">Montar times</span>
-                  <span class="tag">Avaliar atletas</span>
-                  <span class="tag">Ver histórico</span>
-                </div>
-              </div>
-            </div>
+          <div class="demo-image-wrap" aria-label="Demonstração visual fiel ao aplicativo">
+            <img src="site-demo-manchette.png" alt="Demonstração visual do app Manchette Volleyball com tela inicial e tela da sala" />
+            <div class="demo-caption">Demonstração visual fiel ao app: tela inicial com os 3 acessos e visão da sala do organizador. O teste grátis fica separado e é liberado pelo Desenvolvedor.</div>
           </div>
         </div>
       </div>
